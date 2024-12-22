@@ -1,0 +1,12 @@
+Package: ServeurHttp
+Version: 1.0.0
+Section: utils
+Priority: optional
+Depends: php-cli, openjdk-8-jdk | openjdk-11-jdk | openjdk-17-jdk | openjdk-23-jdk
+Architecture: all
+Maintainer: Christian <christianrandriamanantsoa737@gmail.com>
+Description: Serveur HTTP implémenté en Java
+ Ce programme Java permet de simuler un serveur web. Il prend en charge la gestion de fichiers statiques ainsi que l'exécution de fichiers dynamiques, y compris les scripts PHP.
+ Pour faire fonctionner ce serveur, il est nécessaire d'avoir un interpréteur PHP ainsi qu'un environnement d'exécution Java Development Kit (JDK) installés sur votre système. 
+ Le serveur prend en charge les requêtes HTTP standards et peut servir des pages HTML, CSS, JavaScript, ainsi que des fichiers PHP pour un rendu dynamique.
+ Ce serveur peut être utilisé pour des environnements de développement, des tests ou pour simuler un serveur web léger à des fins éducatives et expérimentales.
